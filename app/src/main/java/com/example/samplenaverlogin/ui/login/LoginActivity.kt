@@ -1,12 +1,12 @@
-package com.example.samplenaverlogin.presentation
+package com.example.samplenaverlogin.ui.login
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.samplenaverlogin.R
 
-class MainActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_login)
     }
 }
